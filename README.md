@@ -1,6 +1,5 @@
-# AssaultCube-ESP-Hack
+# AssaultCube-External-ESP-Hack
 
-# AssaultCube-DirectX-GDI-Overlay
 Simple proof of concept on how to draw to an overlay through the use of GDI in Assault Cube.
 
 - WHAT IS THIS:
