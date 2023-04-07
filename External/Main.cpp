@@ -25,7 +25,7 @@ int main()
 	GDI_drawing draw(win);
 
 	ShowWindow(FindWindowA("ConsoleWindowClass", NULL), true);
-	draw.TargetWnd = FindWindow(0, "AssaultCube");
+	draw.TargetWnd = FindWindow(0, L"AssaultCube");
 	draw.HDC_Desktop = GetDC(draw.TargetWnd);
 	draw.SetupDrawing(draw.HDC_Desktop, draw.TargetWnd);
 
