@@ -74,7 +74,7 @@ void GDI_drawing::DrawESP(int x, int y, float distance, int health, char name[20
 
 DWORD WINAPI GDI_drawing::esp(Entities entities, Player player, Mathematics math)
 {
-	GetWindowRect(FindWindow(NULL, "AssaultCube"), &m_Rect);
+	GetWindowRect(FindWindow(NULL, L"AssaultCube"), &m_Rect);
 	
 	while (true)
 	{
